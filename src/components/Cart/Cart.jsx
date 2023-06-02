@@ -25,16 +25,16 @@ const Cart = () => {
 
   return (
     <div>
-      <h3>Resumen de tu compra</h3>
+      <h3>Resumen de su compra</h3>
       {cart.map((p) => (
         <CartItem key={p.id} {...p} handleRemoveItem={handleRemoveItem} />
       ))}
       <h4>Total: ${total}</h4>
       <button onClick={() => clearCart()} className="Option">
-        Limpiar Carrito
+        Vaciar el carrito
       </button>
       <Link to="/checkout" className="Option">
-        Ir a pagar
+        Confirme su compra
       </Link>
     </div>
   );
