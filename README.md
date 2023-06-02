@@ -1,3 +1,14 @@
+# Entrega de proyecto final del curso de React Js
+
+# Características del proyecto
+
+    Una landing de productos.
+    Que desde la home se pueda realizar una búsqueda y filtrado por categorías
+    Que se pueda ver el detalle de cada producto.
+    Agregar y eliminar productos de un carrito de compras.
+    Visualizar el detalle de compras antes de realizar el checkout.
+    Dicha compra finalizará con la generación de de un número de ID.
+
 ![GIF](/public/gif/ConfiteriaReact-RamiroLuna.gif)
 
 # Getting Started with Create React App
