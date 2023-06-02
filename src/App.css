@@ -1,0 +1,241 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/*Estilos de la section del Home*/
+/*Estilos de la section del Home*/
+/*Estilos de la section del Home*/
+/*Estilos de la section del Home*/
+
+
+/*NAVBAR*/
+.NavLinkStyle {
+  text-decoration: none;
+  padding: 0;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  border: none;
+  color: #5f0891c5;
+  transition: all 0.2s ease-in-out;
+}
+
+.NavLinkStyle:hover {
+  font-weight: bold;
+  transform: scale(1.1); 
+  color: #ac4703;
+}
+
+
+
+/*Componente ItemCount*/
+.Counter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #FFF3F8;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.Controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.Button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  background-color: #ac4703;
+  border-radius: 60%;
+  border: none;
+  font-size: 20px;
+  color: #050505;
+  cursor: pointer;
+}
+
+.Button:hover {
+  background-color: #ac4703;
+}
+
+.Number {
+  display: inline-block;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0 10px;
+  color: #282c34;
+}
+
+.ButtonAdd {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #ac4703;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  color: #fff;  
+  cursor: pointer;
+}
+
+.ButtonAdd:hover {
+  background-color: #ac4703;
+  font-weight: bold;  
+  color: #080808;
+}
+
+.ButtonAdd:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.Controls .Button:first-child {
+  margin-right: 10px;
+}
+
+.Controls .Button:last-child {
+  margin-left: 10px;
+}
+
+
+/*Estilos cards*/
+.CardItem {
+  display: inline-flex;
+  flex-direction: column;
+  width: 300px;
+  height: 450px;
+  margin: 30px;
+  background-color: rgb(192, 177, 177);
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+}
+
+.CardItemDetail{
+  display: inline-flex;
+  flex-direction: column;
+  width: 300px;
+  height: 700px;
+  margin: 20px;
+  background-color: rgb(192, 177, 177);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+}
+
+.CardItem:hover {
+  transform: translateY(-5px);
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.3);
+  background-color: rgb(221, 221, 221);
+}
+
+.CardItemDetail:hover {
+  transform: translateY(-5px);
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.3);
+  background-color: rgb(221, 221, 221);
+}
+
+.Header {
+  background-color:#ac4703;
+  color: rgb(192, 177, 177);
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px 10px 0px 0px;
+  font-size: 16px;
+}
+
+.CardItem .Header .ItemHeader {
+  font-size: small;
+}
+
+.CardItemDetail .Header .ItemHeader {
+  font-size: x-large;
+}
+
+.ItemImage {
+  width: 200;
+  height: 300;
+  object-fit: cover;
+  border-radius: 10px 10px 0px 0px;
+}
+
+
+.Info {
+  padding: 10px;
+  margin: 0px;
+  font-size: 16px;
+}
+
+.ItemFooter {
+  background-color: #ac4703;
+  color: rgb(221, 221, 221);
+  padding: 10px;
+  text-align: center;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.Option {
+  background-color: rgb(221, 221, 221);
+  color: rgb(7, 7, 7);
+  border: none;
+  border-radius: 30px;
+  padding: 5px 10px;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.Option:hover {
+  font-weight: bold;
+  transform: scale(1.1);
+  color: #282c34;
+}
+
+#cardTitle {
+  font-size: large;
+}
