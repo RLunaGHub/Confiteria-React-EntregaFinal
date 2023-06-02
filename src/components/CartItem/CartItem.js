@@ -4,7 +4,7 @@ import React from 'react';
 
 const CartItem = ({ id, title, quantity, price, img, handleRemoveItem}) => {
 
-
+console.log(img);
   return (
     <div className="CartItem">
       <div className="CartItem-info">
