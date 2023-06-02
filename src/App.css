@@ -37,12 +37,6 @@
   }
 }
 
-/*Estilos de la section del Home*/
-/*Estilos de la section del Home*/
-/*Estilos de la section del Home*/
-/*Estilos de la section del Home*/
-
-
 /*NAVBAR*/
 .NavLinkStyle {
   text-decoration: none;
@@ -62,7 +56,7 @@
 
 
 
-/*Componente ItemCount*/
+/*ItemCount*/
 .Counter {
   display: flex;
   flex-direction: column;
@@ -141,7 +135,7 @@
 }
 
 
-/*Estilos cards*/
+/*Product cards*/
 .CardItem {
   display: inline-flex;
   flex-direction: column;
@@ -158,7 +152,7 @@
 .CardItemDetail{
   display: inline-flex;
   flex-direction: column;
-  width: 300px;
+  width: 400px;
   height: 700px;
   margin: 20px;
   background-color: rgb(192, 177, 177);
@@ -239,3 +233,5 @@
 #cardTitle {
   font-size: large;
 }
+
+

@@ -1,0 +1,53 @@
+.Container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .Form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    border: 3px solid #ecaa1a;
+    border-radius: 10px;
+  }
+  
+  .Label {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #333;
+    
+  }
+  
+  .Input {
+    width: 350px;
+    height: 40px;
+    padding: 5px;
+    border: 1px solid #ecaa1a;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #050505;
+  }
+  
+  .ButtonCheckOut {
+    padding: 10px 20px;
+    background-color: #ecaa1a;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #070707;
+    cursor: pointer;
+    text-decoration: none;
+    opacity: 0.5; 
+  }
+  
+  .ButtonCheckOut.Active {
+    opacity: 1; 
+  }
+  
+  .ButtonCheckOut:hover {
+    background-color: #f0e8ea;
+  }

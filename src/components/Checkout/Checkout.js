@@ -1,3 +1,4 @@
+import './Checkout.css';
 import "../../App.css";
 import { useState, useContext } from "react";
 import { addDoc, collection, Timestamp } from "firebase/firestore";

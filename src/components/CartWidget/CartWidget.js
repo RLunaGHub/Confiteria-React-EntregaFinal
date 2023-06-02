@@ -17,7 +17,7 @@ export const CartWidget = () => {
   const { totalQuantity } = useContext(CartContext);
 
   return (
-    <Badge bg="success">
+    <Badge bg="light">
       <Link
         to="/cart"
         className="CartWidget"

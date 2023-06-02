@@ -1,5 +1,8 @@
+import './CheckoutForm.css';
 import "../../App.css";
 import { useState, useEffect } from "react";
+
+
 
 const CheckoutForm = ({ onConfirm }) => {
   const [name, setName] = useState("");
