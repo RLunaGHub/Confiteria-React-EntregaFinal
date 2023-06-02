@@ -85,7 +85,7 @@ const CheckoutForm = ({ onConfirm }) => {
           />
         </label>
         <div className="Label">
-          <button
+          <button 
             type="submit"
             className={`ButtonCheckOut ${isFormValid ? "Active" : ""}`}
             disabled={!isFormValid}

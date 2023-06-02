@@ -1,4 +1,4 @@
-import '../../App.css';
+
 import './CartItem.css';
 import React from 'react';
 
@@ -23,10 +23,7 @@ console.log(img);
         <p className="CartItem-title">Precio por unidad:</p>
         <p className="CartItem-value">${price}</p>
       </div>
-      <div className="CartItem-info">
-        <p className="CartItem-title">Imagen:</p>
-        <p className="CartItem-value">{img}</p>
-      </div>
+    
       <div>
       <button onClick={() => handleRemoveItem(id)}>Quitar producto</button>
       </div>

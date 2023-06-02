@@ -30,10 +30,10 @@ const Cart = () => {
         <CartItem key={p.id} {...p} handleRemoveItem={handleRemoveItem} />
       ))}
       <h4>Total: ${total}</h4>
-      <button onClick={() => clearCart()} className="OptionV">
+      <button onClick={() => clearCart()} className="Option">
         Vaciar el carrito
       </button>
-      <Link to="/checkout" className="OptionC">
+      <Link to="/checkout" className="Option">
         Confirme su compra
       </Link>
     </div>

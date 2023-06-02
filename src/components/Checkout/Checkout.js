@@ -57,7 +57,7 @@ export const Checkout = () => {
         <h3>Detalle de su compra</h3>
         {cart.map((item) => (
           <div key={item.id}>
-            <p id="itemName">{item.name}</p>
+            <p id="itemName">{item.title}</p>
             <p>Precio Unitario: ${item.price}</p>
             <p>Cantidad: {item.quantity}</p>
           </div>
